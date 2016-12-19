@@ -598,6 +598,16 @@ The label of the job as it will appear in the resources page of the tile.
 
 ### templates
 Array of Hashes. Required.
+Each element has the following fields:
+#### name
+The name of the job template to use. Required.
+#### release
+The name of the release the template is from. Required.
+#### consumes
+A YAML string defining [BOSH links](https://bosh.io/docs/links.html) this job consumes. Optional
+#### provides
+A YAML string defining [BOSH links](https://bosh.io/docs/links.html) this job provides. Optional
+
 This is a BOSH feature (creating jobs from different releases). See the [BOSH documentation](https://bosh.io/) for more information.
 
 ### release
