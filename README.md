@@ -2,4 +2,4 @@
 
 <strong>NOTE: This repo is discontinued and deprecated, as of December 2016.</strong>
 
-The new location for Pivotal Partner documentation and internal Service team documentation for building tiles and BOSH releases is the **[docs-book-tiledev](https://github.com/pivotal-cf/docs-book-tiledev)** repo, for the [PCF Tile Developers Guide](http://docs.pivotal.io/tiledev).
+The new location for Pivotal Partner documentation and internal Service team documentation for building tiles and BOSH releases is the **[docs-book-tiledev](https://github.com/pivotal-cf/docs-book-tiledev)** repo, for the [PCF Tile Developer Guide](http://docs.pivotal.io/tiledev).
