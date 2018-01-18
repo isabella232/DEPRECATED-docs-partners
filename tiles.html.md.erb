@@ -75,7 +75,7 @@ The product template includes the following sections:
 
 A tile's configuration interface is defined in a `.yml` file in the tile's `metadata` subdirectory. Within a `.yml` file, you can use double parentheses to enclose deployment manifest snippets, and Ops Manager will pass these snippets to BOSH, to incorporate into the manifest that BOSH uses to deploy instances of the tile service. These double-paren expressions are how Ops Manager sends tile configuration information to BOSH, and how you should write these expressions depends on what type of information you want to retrieve.
 
-### <a id=''></a>Referencing Properties
+### <a id='referencing-properties'></a>Referencing Properties
 
 Evaluating a property can be represented by piecing two segments together:
 
@@ -112,7 +112,7 @@ The following example uses the property blueprint type `string` with its one acc
 
 `(( .properties.example-string.value ))`
 
-### <a id=''></a>Dollar Contexts
+### <a id='dollars'></a>Dollar Contexts
 
 Outside of properties, you can also retrieve information about various configuration details of your product and Ops Manager.
 
